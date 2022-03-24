@@ -1,0 +1,15 @@
+Please find below the Git commands that I use in day to day test automation activities:
+
+git clone - for initial repository setup
+git fetch - to fetch all branches
+git checkout <branchname> - to check out on a specific branch
+
+add/delete/update/run test cases as per test plan
+
+git pull - to update local branch before commiting local changes to bitbucket
+git status - to verify the artifacts status before commiting
+git commit - to commit changes on local branch
+git push - to push changes to bitbucket branch
+
+git stash - to discard any changes on local branch before commiting
+

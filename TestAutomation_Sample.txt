@@ -1,0 +1,23 @@
+package <package name>
+
+import <all the required libraries>
+
+//all required tags to identify the tests during run time
+
+class OverallRatingpage_UnitTest
+{
+
+@Test
+@Testname("validate that there are no NULLs in commets field") 
+
+@NullTest{
+
+Env="Test"
+Database="Oracle"
+TestSQL="SELECT COUNT(*) FROM COMMENTS_HISTORY WHERE COMMENTS IS NULL"
+ExpectedResults=0
+
+}
+ 
+}
+
